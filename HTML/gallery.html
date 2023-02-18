@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../JavaScript/gallery.js" defer></script>
+</head>
+<body onload="color()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display: none;" onclick="imgV()">
+        <img id="fullImg" src="../Asset/img/India-Gate.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit eligendi eos ratione quo at quos aliquid quidem ducimus doloremque, error, reiciendis laborum ipsa mollitia quibusdam. Molestiae, aspernatur tempore ex labore, quia soluta nihil ipsam dolore atque, vero consectetur eveniet saepe deserunt? Unde nam nobis magni voluptatibus! Libero exercitationem atque quasi voluptatum quas perspiciatis tempora asperiores cupiditate aut distinctio eligendi ex et eum, delectus nesciunt doloribus explicabo. Odio nihil obcaecati necessitatibus odit hic recusandae possimus. Quos soluta sit ratione repudiandae.</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli">Dubai</li>
+                    <li class="sli">Srilanka</li>
+                    <li class="sli">Thailand</li>
+                    <li class="sli">Korea</li>
+                </ul>
+            </li>
+            <li class="li"><a href="#">Info</a></li>
+            <li class="li"><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    <!-- from here body of gallery starts -->
+    <div class="bodyOfGallery">
+        <img src="../Asset/img/India-Gate.jpg" onclick="imgK(this.src,'dfghjhgf','dfghj')">
+        <img src="../Asset/img/ISKCON-Temple.jpg">
+        <img src="../Asset/img/Jama-Masjid.jpg">
+        <img src="../Asset/img/Lodhi-Garden.jpeg">
+        <img src="../Asset/img/Lotus-Temple.jpg">
+        <img src="../Asset/img/qutub-minar.jpg">
+        <img src="../Asset/img/RashtrapatiBhawan.jpg">
+        <img src="../Asset/img/redfort.jpg">
+    </div>
+</body>
+</html>

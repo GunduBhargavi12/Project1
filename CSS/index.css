@@ -1,0 +1,110 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+#main
+{
+    letter-spacing: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+   width:100%;
+   height:400px;
+   background-image: url(../Asset/img/left1.jpg), url(../Asset/img/right1.jpg),url(../Asset/img/girl.jpg);
+   background-size:50% 500px,50% 500px, 100%  600px;
+   background-repeat: no-repeat;
+   box-shadow: 0px 5px 10px black;
+   /* background-position: 0px 40px,right bottom, 0px -120px; */
+   background-position: left bottom ,right bottom, 0px -120px;
+   transition: background-position 1s,color 3s,text-shadow 3s,font-size 2s;
+
+}
+
+#main:hover{
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px skyblue,-2px -2px 5px yellow,0px 0px black;
+    background-position: -230px 20px, 630px 20px,0px -180px;
+}
+.videoleft
+{
+    float:left;
+    width:100%;
+    height:230px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.leftside
+{
+    float:left;
+    width:380px;
+    border-radius:20px;
+    position:absolute;
+    left:10px;
+    box-shadow: 2px 3px 5px grey;
+
+}
+.head
+{
+    float:right;
+    position:absolute;
+    right:25%;
+    color:purple;
+    text-shadow: 2px 3px 4px white;
+    text-decoration: underline;
+}
+.para
+{
+    float:right;
+    position: absolute;
+    left:30%;
+    top:20%;
+    font-size:20px;
+    text-shadow: 5px 2px 5px black;
+    color:white;
+    text-indent: 20px;
+    letter-spacing: 2px;
+}
+.videoright
+{
+    float:left;
+    width:100%;
+    height:200px;
+    background-image: linear-gradient(skyblue,blue);
+    position:relative;
+}
+.rightside
+{
+    float:right;
+    width:300px;
+    border-radius:10%;
+    position: absolute;
+    right:5%;
+    top:10px;
+
+}
+.head2
+{
+    font-size:30px;
+    float:left;
+    color:darkblue;
+    position: relative;
+    left:30%;
+    text-decoration: underline black;
+    text-shadow: 2px 3px 5px white;
+}
+.para2
+{
+    color:black;
+    float:left;
+    font-size: 20px;
+    text-indent: 20px;
+    position: absolute;
+    top:20%;
+    right:30%;
+    text-align: justify;
+    text-shadow:3px 3px 5px white;
+    letter-spacing: 2px;
+}
